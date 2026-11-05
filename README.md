@@ -2,7 +2,7 @@
 
 We propose <strong>RecOE</strong>, an outlier exposure (OE) framework that learns feature subspaces from in-distribution data and auxiliary outliers. The subspaces capture the dominant variations of their respective distributions, and the difference between their reconstruction errors serves as the out-of-distribution detection score.
 
-[Method](#method) · [Results](#results) · [Dataset and Environment](#dataset-and-environment)  · [Training](#training) · [Test](#test) · [Released checkpoints](#released-checkpoints)
+[Method](#method) · [Results](#results) · [Dataset and Environment](#dataset-and-environment)  · [Training](#training) · [Testing](#testing) · [Released checkpoints](#released-checkpoints)
 
 ## Method
 
@@ -129,7 +129,7 @@ python train_RecOE_ImageNet.py --ngpu 1 \
 ```
 
 
-## Test
+## Testing
 
 Evaluate a trained RecOE model by setting `CIFAR_CHECKPOINT_DIR` or `IMAGENET_CHECKPOINT_DIR` to the directory containing its matching backbone and subspace checkpoint pair. 
 
