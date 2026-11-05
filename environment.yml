@@ -1,0 +1,26 @@
+name: torch112_py37
+
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.7
+  - pytorch=1.12.1
+  - torchvision=0.13.1
+  - torchaudio=0.12.1
+  - cudatoolkit=11.6
+
+  - numpy=1.21
+  - scipy=1.7
+  - scikit-learn=1.0
+  - pillow
+  - matplotlib=3.5
+  - tqdm
+  - requests
+
+  - pip
+
+  - pip:
+      - geoopt==0.5.0
