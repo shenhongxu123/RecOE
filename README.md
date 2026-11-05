@@ -2,7 +2,7 @@
 
 We propose <strong>RecOE</strong>, an outlier exposure (OE) framework that learns feature subspaces from in-distribution data and auxiliary outliers. The subspaces capture the dominant variations of their respective distributions, and the difference between their reconstruction errors serves as the out-of-distribution detection score.
 
-[Method](#method) · [Results](#results) · [Dataset and Environment](#dataset-and-environment)  · [Training](#training) · [Testing](#testing) · [Released checkpoints](#released-checkpoints)
+[Method](#method) · [Results](#results) · [Datasets and Environment](#datasets-and-environment)  · [Training](#training) · [Testing](#testing) · [Released checkpoints](#released-checkpoints)
 
 ## Method
 
@@ -90,7 +90,7 @@ Values are mean ± standard deviation over three trials, in percent. FPR95 and A
   </tbody>
 </table>
 
-## Dataset and Environment
+## Datasets and Environment
 
 | InD benchmark | Backbone | Auxiliary  data | OOD test datasets |
 | --- | --- | --- | --- |
